@@ -15,7 +15,7 @@ export default function Nav() {
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <NavB className="px-5">
             <NavB.Link href="/">Home</NavB.Link>
-            <NavB.Link href="http://about">About</NavB.Link>
+            <NavB.Link href="/about">About</NavB.Link>
             <NavB.Link href="/skills">Skills</NavB.Link>
             <NavB.Link href="/contact">Contact</NavB.Link>
             <Button
