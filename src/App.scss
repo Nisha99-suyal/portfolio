@@ -86,8 +86,9 @@ $background-color_4: #fff;
 }
 /*Navbar*/
 .navbar{
+	z-index: 999;
+	text-align: center;
 	.navbar-brand {
-		z-index: 999;
 		.logo {
 			width: 5rem;
 			padding: 10px 0 0 25px;
@@ -405,6 +406,7 @@ $background-color_4: #fff;
 
 @media (max-width: 991.98px) {
 	.navbar-nav {
+		text-align: center;
 		>a {
 			padding: 10px 0 !important;
 		}

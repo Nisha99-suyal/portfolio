@@ -8,7 +8,7 @@ import Nav from "./components/Nav";
 
 function App() {
   return (
-     <div className="protfolio w-100">
+     <div className="protfolio">
       <Nav/>
       <Routes>
         <Route path="/" element={<Home />} />
