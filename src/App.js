@@ -10,7 +10,9 @@ import { useEffect } from "react";
 function App() {
   const navigate = useNavigate();
   useEffect(()=>{
-    navigate('/')
+console.log("HIIIIIertdrgfh");
+    navigate('/');
+  console.log("HIIIII");
   },[])
   return (
      <div className="protfolio">
