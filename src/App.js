@@ -10,6 +10,7 @@ import { useEffect } from "react";
 function App() {
   const navigate = useNavigate();
   useEffect(()=>{
+console.log("HIIIIIertdrgfh");
     navigate('/');
   console.log("HIIIII");
   },[])
