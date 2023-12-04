@@ -1,4 +1,4 @@
-import react, {useState} from "react";
+import {useState} from "react";
 import { Button } from "react-bootstrap";
 import Logo from "../Images/logo.png";
 import { Container, Navbar } from "react-bootstrap";
@@ -27,7 +27,7 @@ export default function Nav() {
             <NavB.Link as={Link} to="/contact" onClick={closeNavbar}>Contact</NavB.Link>
             <Button
               className="resume-btn"
-              onClick={() => {window.open("https://drive.google.com/file/d/1i9BM5uWxkNqnp7u_ClX-rJv5iJSBCrug/view?usp=sharing");}}>
+              onClick={() => {window.open("https://drive.google.com/file/d/1GUABO_ZLFwpE6jk5pNYJjUAsqrGMvXpk/view?usp=sharing");}}>
               <span>Resume</span>
             </Button>
           </NavB>
