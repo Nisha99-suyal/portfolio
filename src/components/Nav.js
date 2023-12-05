@@ -15,7 +15,7 @@ export default function Nav() {
   return (
     <Navbar expand="lg" className="navbar-dark p-0" expanded={navbarExpanded}>
       <Container fluid className="px-1">
-        <Navbar.Brand href="/">
+        <Navbar.Brand as={Link} to="/">
           <img className="logo" src={Logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  onClick={() => setNavbarExpanded(!navbarExpanded)}/>
