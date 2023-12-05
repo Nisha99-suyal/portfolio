@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.df768b27.css",
-    "main.js": "/portfolio/static/js/main.837a9c63.js",
-    "static/media/front.png": "/portfolio/static/media/front.6f3880ff2eb50765d4bf.png",
-    "static/media/nodejs.png": "/portfolio/static/media/nodejs.d980d9636ace07ad3dde.png",
-    "static/media/skillsRight.png": "/portfolio/static/media/skillsRight.2892d75787f48675505d.png",
-    "static/media/girlcoder.png": "/portfolio/static/media/girlcoder.52310ffdfcf5169bddd3.png",
-    "static/media/jquery.png": "/portfolio/static/media/jquery.eb105fbbfb1112c72276.png",
-    "static/media/css.png": "/portfolio/static/media/css.3b437a11505834ed3e15.png",
-    "static/media/logo.png": "/portfolio/static/media/logo.f76e2348b63518d908b2.png",
-    "static/media/js.png": "/portfolio/static/media/js.f3ac6b6a6f2c57a76929.png",
-    "static/media/git.png": "/portfolio/static/media/git.69ffd9cd5a846c976177.png",
-    "static/media/commerce.png": "/portfolio/static/media/commerce.f42abaabfdebd96ad00c.png",
-    "index.html": "/portfolio/index.html",
-    "main.df768b27.css.map": "/portfolio/static/css/main.df768b27.css.map",
-    "main.837a9c63.js.map": "/portfolio/static/js/main.837a9c63.js.map"
+    "main.css": "/static/css/main.df768b27.css",
+    "main.js": "/static/js/main.ffabd1fc.js",
+    "static/media/front.png": "/static/media/front.6f3880ff2eb50765d4bf.png",
+    "static/media/nodejs.png": "/static/media/nodejs.d980d9636ace07ad3dde.png",
+    "static/media/skillsRight.png": "/static/media/skillsRight.2892d75787f48675505d.png",
+    "static/media/girlcoder.png": "/static/media/girlcoder.52310ffdfcf5169bddd3.png",
+    "static/media/jquery.png": "/static/media/jquery.eb105fbbfb1112c72276.png",
+    "static/media/css.png": "/static/media/css.3b437a11505834ed3e15.png",
+    "static/media/logo.png": "/static/media/logo.f76e2348b63518d908b2.png",
+    "static/media/js.png": "/static/media/js.f3ac6b6a6f2c57a76929.png",
+    "static/media/git.png": "/static/media/git.69ffd9cd5a846c976177.png",
+    "static/media/commerce.png": "/static/media/commerce.f42abaabfdebd96ad00c.png",
+    "index.html": "/index.html",
+    "main.df768b27.css.map": "/static/css/main.df768b27.css.map",
+    "main.ffabd1fc.js.map": "/static/js/main.ffabd1fc.js.map"
   },
   "entrypoints": [
     "static/css/main.df768b27.css",
-    "static/js/main.837a9c63.js"
+    "static/js/main.ffabd1fc.js"
   ]
 }
