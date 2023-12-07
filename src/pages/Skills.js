@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import RoundSkills from "../components/RoundSkills";
-import SkillRight from "../Images/skillsRight.png";
+import skillImage from '../Images/skillImg.svg';
 export default function Skills() {
   return (
     <Container className="skill-section">
@@ -18,7 +18,7 @@ export default function Skills() {
           <RoundSkills />
         </Col>
         <Col className="right-skillSection">
-            <img src={SkillRight} alt="Skill Right"/>
+            <img src={skillImage} alt="Skill Right"/>
         </Col>
       </Row>
     </Container>

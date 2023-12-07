@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram, FaGithub} from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 export default function Contact() {
   return (
@@ -40,6 +40,7 @@ export default function Contact() {
             Feel free to connect on social media.
           </h2>
           <div className="social-icons contact-social">
+            <a href="https://github.com/Nisha99-suyal" target="_blank" className="github"><FaGithub /></a>  
             <a href="https://www.linkedin.com/in/nishasuyal/" target="_blank" className="linkedIn"><FaLinkedinIn /></a>
             <a href="mailto: nishasuyal229@gmail.com" target="_blank" className="mail"><AiOutlineMail /></a>
             <a href="https://instagram.com/nisha_s1506?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" className="linkedIn"><FaInstagram /></a>

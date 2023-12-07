@@ -1,5 +1,6 @@
 $color_1: #fff;
 $color_2: blueviolet;
+$color_3: rgb(186,226,43);
 $color_4: grey;
 $color_5: #e8c709;
 $font-family_1: "Patua One", cursive;
@@ -84,6 +85,7 @@ $background-color_4: #fff;
 	width: 100%;
 	height: 100vh;
 }
+
 /*Navbar*/
 .navbar{
 	z-index: 999;
@@ -128,7 +130,7 @@ $background-color_4: #fff;
 		z-index: 999;
 		.left-home-text {
 			>h1 {
-				color: $color_2;
+				color: $color_3;
 				padding: 10px 0;
 				font-size: 45px;
 				>span {
@@ -147,13 +149,13 @@ $background-color_4: #fff;
 					width: 70px;
 					padding: 5px 0;
 					border-radius: 50%;
-					font-size: 20px;
+					font-size: 30px;
 					color: $color_1;
 					transition: 0.5s ease;
 					&:hover {
 						font-size: 40px;
-						color: $color_2;
-						box-shadow: 0 0 40px $color_2;
+						color: $color_3;
+						box-shadow: 0 0 40px $color_3;
 					}
 				}
 			}
@@ -172,46 +174,22 @@ $background-color_4: #fff;
 }
 
 /*About*/
-.about-section {
-	display: flex;
+.about-section{
 	justify-content: center;
 	align-items: center;
-	height: 80vh;
-	.about {
-		border-radius: 2rem !important;
-		box-shadow: 4px -2px 20px 12px #a46bd9;
-		width: 60% !important;
-		.aboutme-heading {
-			color: $color_1 !important;
-			border-bottom: 1px solid $color_2;
-			text-align: center;
-			padding: 20px;
-		}
-		.about-section {
-			justify-content: start;
-			align-items: start;
-			padding: 0 20px;
-			height: auto;
-			.aboutsection-para {
-				font-family: $font-family_1;
-				color: $color_1 !important;
-				text-align: left;
-				line-height: 20px;
-				word-spacing: 1px;
-				letter-spacing: 2px;
-				padding: 30px 0;
-			}
-			.about-img {
-				padding: 2rem 0 !important;
-				justify-content: center;
-				align-items: center;
-				display: flex;
-				.girlcoder {
-					width: 80%;
-					height: 80%;
-				}
-			}
-		}
+	.about-img{
+		width: 85%;
+	}
+	.about-heading{
+		color: $color_3;
+	}
+	.about-para{
+		color: white;
+	}
+	.connect-btn{
+		background-color: $color_2 !important;
+		outline: none;
+		border: none !important;
 	}
 }
 
@@ -224,7 +202,7 @@ $background-color_4: #fff;
 		color: $color_1;
 		text-align: left;
 		h1 {
-			color: $color_2;
+			color: $color_3;
 			font-weight: bolder;
 			font-size: 50px;
 		}
@@ -249,7 +227,11 @@ $background-color_4: #fff;
 	.right-skillSection {
 		display: flex;
 		justify-content: center;
-		align-items: center;
+		align-items: end;
+		img{
+			width: 90%;
+			height: 90%;
+		}
 	}
 }
 
@@ -436,17 +418,21 @@ $background-color_4: #fff;
 		}
 	}
 	.about-section{
-		.about {
-			width: 80% !important;
-			margin: 2% auto;
-			.aboutsection-para {
-				text-align: center;
-				padding: 20px;
-				width: 100% !important;
-			}
-		}
-		.about-img {
+		justify-content: center;
+		align-items: center;
+		.about-img-section{
 			display: none;
+		}
+		.about-text-section{
+			text-align: center;
+			.about-heading{
+				text-align: center;
+				color: $color_3;
+			}
+			.about-para{
+				text-align: center;
+				color: white;
+			}
 		}
 	}
 	.skill-section{
