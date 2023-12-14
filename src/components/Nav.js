@@ -27,7 +27,7 @@ export default function Nav() {
             <NavB.Link as={Link} to="/contact" onClick={closeNavbar}>Contact</NavB.Link>
             <Button
               className="resume-btn"
-              onClick={() => {window.open("https://drive.google.com/file/d/1GUABO_ZLFwpE6jk5pNYJjUAsqrGMvXpk/view?usp=sharing");}}>
+              onClick={() => {window.open("https://drive.google.com/file/d/1yusTxjM_pHxJeh3b6_Po4lC-Hlg-nedr/view?usp=sharing");}}>
               <span>Resume</span>
             </Button>
           </NavB>
