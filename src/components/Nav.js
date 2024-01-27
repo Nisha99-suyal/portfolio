@@ -40,7 +40,7 @@ export default function Nav() {
               className="resume-btn"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/11Acf-ByA1bAWHmoHtmr-0_5kMErxYrtW/view?usp=sharing"
+                  "https://drive.google.com/file/d/1p5WjAzZOunEH-drut1RcDbtNso6af9V1/view?usp=sharing"
                 );
               }}
             >
