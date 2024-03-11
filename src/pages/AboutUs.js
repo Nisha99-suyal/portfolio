@@ -12,7 +12,7 @@ export default function AboutUs() {
         </Col>
         <Col className="about-text-section">
           <h1 className="about-heading">
-            I'm a Front-end Developer with over 3+ years of experience.
+            I'm a Front-end Developer with over 2+ years of experience.
           </h1>
           <p className="about-para my-4">
             Hey there! 👋 I'm a self-taught Front End developer from India with
